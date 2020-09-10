@@ -9,7 +9,7 @@ int main(void) {
     
     // Problem 2
     const MAX_SCORE = 100000;
-    float percentage = (float)score / (float)MAX_SCORE;
+    float percentage = (float)score / (float)MAX_SCORE  * 100;
     printf("%0.2f\n", percentage);
     
     // Problem 3
