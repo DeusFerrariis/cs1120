@@ -64,7 +64,8 @@ int main(int argc, char** argv) {
     char newer_string[rows+2];
 
     for (int i = 1; i <= rows; i++) {
-
+        
+        //Sets string to empty
         memset(newer_string, 0, sizeof(newer_string));
 
         for (int j=0; j < i; j++) {
