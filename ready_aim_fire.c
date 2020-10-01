@@ -37,8 +37,8 @@ int main(int argc, char** argv)
 	float h = pow(voy, 2) / (2 * G);
 	float dx = (vox*2*t);
 	// print max height and horizontal distance
-    printf("Max Height: %0.4f\n", h);
-    printf("Horizontal Distance: %0.4f\n", dx);
+	printf("Max Height: %0.4f\n", h);
+	printf("Horizontal Distance: %0.4f\n", dx);
 
 	return (EXIT_SUCCESS);
 }
@@ -49,7 +49,7 @@ int main(int argc, char** argv)
 float getFloat(char* prompt)
 {
 	float number;
-    printf("%s: ", prompt);
+	printf("%s: ", prompt);
 	scanf("%f", &number);
 	return number;
 }
