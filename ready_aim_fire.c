@@ -10,7 +10,7 @@
 #define M_PI 3.14159265358979323846f
 #endif
 
-float getFloat();\n
+float getFloat();
 
 /*
 * Calculates the maximum height and horizontal distance
