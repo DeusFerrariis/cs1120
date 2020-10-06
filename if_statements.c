@@ -4,7 +4,34 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+void clearBuffer();
+
 int main(int argc, char** argv) {
+
+    // Problem 1
+
+    int firstInt;
+    printf("Enter an Int: ");
+    scanf("%d", &firstInt);
+
+    if (firstInt >= 0) {
+        printf("First Int was Positive\n");
+    }
+
+    // Problem 2
+
+    int secondInt;
+    printf("Enter an Int: ");
+    scanf("%d", &secondInt);
+
+    if (secondInt >= 0) {
+        printf("Second Int was Positive\n");
+    }    
+    else {
+        printf("Second Int was Negative\n");
+    }
+    
+    // Problem 3
 
     printf("****************\n");
     printf("N New Game\n");
@@ -14,6 +41,7 @@ int main(int argc, char** argv) {
     printf("****************\n");
 
     char choice;
+    clearBuffer();
     scanf("%c", &choice);
     choice = toupper(choice);
 
@@ -46,4 +74,11 @@ int main(int argc, char** argv) {
     
 
 	return (EXIT_SUCCESS);
+
+
+}
+
+// Fixes \n issue
+void clearBuffer() {
+    while ((getchar()) != '\n');
 }
