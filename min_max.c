@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     int max;
 
 
-    for(int i = 0; i < 4; i++) {
+    for(int i = 0; i < 5; i++) {
         if (i == 0) {
             min = scores[i];
             max = scores[i];
