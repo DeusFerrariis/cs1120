@@ -47,8 +47,11 @@ int main(int argc, char** argv) {
     int newMin;
     int newMax;
 
-    for(int i = 0; i <= sizeof(newScores) / sizeof(newScores[0]); i++) {
+    for (int i = 0; i < totalScores; i++) {
         newScores[i] = getInt();
+    }
+
+    for(int i = 0; i < totalScores; i++) {
         if (i == 0) {
             newMin = newScores[i];
             newMax = newScores[i];
