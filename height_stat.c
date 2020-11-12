@@ -21,7 +21,6 @@ int main() {
     );
 
     int* heights = malloc(totalHeights * sizeof(int));
-    printf("oof\n");
 
     for (int i = 0; i < totalHeights; i++) {
         heights[i] = getValidInteger(
