@@ -39,12 +39,6 @@ int main() {
     int lineCount2 = getLineCountInFile("encrypted.txt");
     char** encryptedMessages = getLinesInFile("encrypted.txt", lineCount2);
 
-    printf("%s\n", decryptMessage(
-        "WEEE\0\0\0",
-        4,
-        RIGHT, 
-        5));
-
     decryptMessages(encryptedMessages, "decrypted.txt", shiftDirection, shiftAmount);
 
 }
@@ -95,10 +89,14 @@ char** getLinesInFile(char* filename, int maxLines) {
 void decryptMessages(char** messages, char* outFile, enum shift shiftDirection, int shiftAmount) {
     FILE *fp; 
     fp = fopen(outFile, "w+");
-    for (int i=0; i<(sizeof(messages)/sizeof(messages[0])); i++) {
+    for (int i=0; i<=(sizeof(messages)/sizeof(messages[0])); i++) {
+        int stringSize;
+        char *e;
+        e = strchr(messages[i], '\0');
+        stringSize = (int)(e - messages[i]) + 1;
         fprintf(fp, "%s\n", decryptMessage(
             messages[i],
-            sizeof(messages[i])/sizeof(char)-3,
+            stringSize,
             shiftDirection,
             shiftAmount
         ));
@@ -109,11 +107,15 @@ void decryptMessages(char** messages, char* outFile, enum shift shiftDirection, 
 void encryptMessages(char** messages, char* outFile, enum shift shiftDirection, int shiftAmount) {
     FILE *fp; 
     fp = fopen(outFile, "w+");
+
     for (int i=0; i<=sizeof(messages)/sizeof(messages[0]); i++) {
-        printf("%s\n", messages[i]);
+        int stringSize;
+        char *e;
+        e = strchr(messages[i], '\0');
+        stringSize = (int)(e - messages[i]) + 1;
         fprintf(fp, "%s\n", encryptMessage(
             messages[i],
-            sizeof(messages[i])/sizeof(char),
+            stringSize,
             shiftDirection,
             shiftAmount
         ));
@@ -146,7 +148,7 @@ int getLineCountInFile(char *filename) {
 char* decryptMessage(char* message, int messageSize, enum shift direction, int shiftAmount) {
     char* decryptedMessage = malloc((messageSize) * sizeof(char));
 
-    for (int i = 0; i < messageSize; i++)
+    for (int i = 0; i < messageSize-1; i++)
     {
         if (direction == LEFT) {
             decryptedMessage[i] = message[i] + shiftAmount;
