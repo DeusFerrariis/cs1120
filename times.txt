@@ -1,0 +1,96 @@
+Selection Sort,20000,Random,406
+Selection Sort,20000,Random,404
+Bubble Sort,10000,Random,280
+Bubble Sort,20000,Random,1122
+Bubble Sort,30000,Random,2631
+Bubble Sort,40000,Random,4727
+Bubble Sort,50000,Random,7578
+Bubble Sort,60000,Random,11046
+Bubble Sort,70000,Random,15417
+Bubble Sort,80000,Random,21078
+Bubble Sort,90000,Random,25686
+Bubble Sort,100000,Random,33847
+Selection Sort,10000,Random,121
+Selection Sort,20000,Random,412
+Selection Sort,30000,Random,889
+Selection Sort,40000,Random,1509
+Selection Sort,50000,Random,2387
+Selection Sort,60000,Random,3542
+Selection Sort,70000,Random,4823
+Selection Sort,80000,Random,6306
+Selection Sort,90000,Random,8023
+Selection Sort,100000,Random,9983
+Insertion Sort,10000,Random,79
+Insertion Sort,20000,Random,203
+Insertion Sort,30000,Random,462
+Insertion Sort,40000,Random,781
+Insertion Sort,50000,Random,1224
+Insertion Sort,60000,Random,1770
+Insertion Sort,70000,Random,2556
+Insertion Sort,80000,Random,3169
+Insertion Sort,90000,Random,4306
+Insertion Sort,100000,Random,5136
+Bubble Sort,10000,Almost Sorted,99
+Bubble Sort,20000,Almost Sorted,370
+Bubble Sort,30000,Almost Sorted,825
+Bubble Sort,40000,Almost Sorted,1475
+Bubble Sort,50000,Almost Sorted,2254
+Bubble Sort,60000,Almost Sorted,3297
+Bubble Sort,70000,Almost Sorted,4411
+Bubble Sort,80000,Almost Sorted,5763
+Bubble Sort,90000,Random,23583
+Bubble Sort,90000,Almost Sorted,7384
+Bubble Sort,100000,Almost Sorted,9085
+Bubble Sort,10000,Backwards,261
+Bubble Sort,20000,Backwards,914
+Bubble Sort,30000,Backwards,2049
+Bubble Sort,40000,Backwards,3930
+Bubble Sort,50000,Backwards,5921
+Bubble Sort,60000,Backwards,9360
+Bubble Sort,70000,Backwards,12639
+Bubble Sort,80000,Backwards,18061
+Bubble Sort,90000,Backwards,22770
+Bubble Sort,100000,Backwards,28592
+Selection Sort,10000,Almost Sorted,115
+Selection Sort,20000,Almost Sorted,393
+Selection Sort,30000,Almost Sorted,875
+Selection Sort,40000,Almost Sorted,1551
+Selection Sort,50000,Almost Sorted,2372
+Selection Sort,60000,Almost Sorted,3425
+Selection Sort,70000,Almost Sorted,4772
+Selection Sort,80000,Almost Sorted,6356
+Selection Sort,90000,Almost Sorted,7975
+Selection Sort,100000,Almost Sorted,10053
+Selection Sort,10000,Backwards,115
+Selection Sort,20000,Backwards,382
+Selection Sort,30000,Backwards,868
+Selection Sort,40000,Backwards,1539
+Selection Sort,50000,Backwards,2313
+Selection Sort,60000,Backwards,3335
+Selection Sort,70000,Backwards,4646
+Selection Sort,80000,Almost Sorted,6442
+Selection Sort,80000,Backwards,6192
+Selection Sort,90000,Almost Sorted,8167
+Selection Sort,90000,Backwards,7621
+Selection Sort,100000,Backwards,8680
+Insertion Sort,20000,Backwards,420
+Insertion Sort,10000,Backwards,103
+Insertion Sort,30000,Backwards,949
+Insertion Sort,40000,Backwards,1589
+Insertion Sort,50000,Backwards,2709
+Insertion Sort,60000,Backwards,3702
+Insertion Sort,70000,Backwards,5346
+Insertion Sort,80000,Backwards,6978
+Insertion Sort,90000,Backwards,8527
+Insertion Sort,100000,Backwards,10465
+Insertion Sort,10000,Almost Sorted,0
+Insertion Sort,20000,Almost Sorted,1
+Insertion Sort,30000,Almost Sorted,0
+Insertion Sort,40000,Almost Sorted,0
+Insertion Sort,40000,Almost Sorted,1
+Insertion Sort,50000,Almost Sorted,0
+Insertion Sort,60000,Almost Sorted,0
+Insertion Sort,70000,Almost Sorted,0
+Insertion Sort,80000,Almost Sorted,0
+Insertion Sort,90000,Almost Sorted,0
+Insertion Sort,100000,Almost Sorted,0
